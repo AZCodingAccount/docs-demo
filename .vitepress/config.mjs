@@ -3,14 +3,14 @@ import { set_sidebar } from "./utils/auto_sidebar.mjs"; // 改成自己的路径
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  head: [["link", { rel: "icon", href: "/logo.svg" }]],
   base: "/docs-demo/",
+  head: [["link", { rel: "icon", href: "/docs-demo/logo.svg" }]],
   title: "我的厉害的项目",
   description: "A VitePress Site",
   themeConfig: {
     outlineTitle: "目录",
     outline: [2, 6],
-    logo: "/logo.png",
+    logo: "/logo.svg",
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {
